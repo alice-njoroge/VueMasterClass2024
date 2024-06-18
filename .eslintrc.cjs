@@ -8,12 +8,12 @@ module.exports = {
     'eslint:recommended',
     '@vue/eslint-config-typescript',
     '@vue/eslint-config-prettier/skip-formatting',
-    'plugin:vue/vue3-strongly-recommended' //to apply priority B Rules in Vue
+    //'plugin:vue/vue3-strongly-recommended' //to apply priority B Rules in Vue
   ],
   parserOptions: {
     ecmaVersion: 'latest'
   },
   rules: {
-    '@typescript-eslint/no-unused-vars': 'off'
+    //'@typescript-eslint/no-unused-vars': 1
   }
 }
