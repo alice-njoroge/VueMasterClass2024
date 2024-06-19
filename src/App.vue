@@ -3,8 +3,6 @@
 </script>
 
 <template>
-  <h1> Welcome to Pulse! </h1>
-
-
+  <RouterView />
 </template>
 
